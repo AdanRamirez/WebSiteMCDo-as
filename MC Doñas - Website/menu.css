@@ -1,0 +1,305 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/depositphotos_49204405-stock-illustration-fast-food-background.jpg);
+}
+
+header{
+    background-image: linear-gradient(#FBA519, #EA5F51);
+    height: 100px;
+    display: flex;
+}
+
+ul{
+    margin: 0 auto;
+    display: flex;
+}
+
+li{
+    margin-left: 20px;
+    padding-top: 20px;
+    list-style: none;
+    height: 100%;
+     -webkit-transition: all .5s;
+}
+
+.Mclogo{
+    width: 350px;
+    border-radius: 30px;
+}
+
+.a-menu{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.li-uno:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    background-color: aqua;
+}
+
+.li-dos{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    background-color: brown;
+}
+
+.li-tres:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    background-color: cornflowerblue;
+}
+
+.li-cuatro:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    background-color: darkcyan;
+}
+
+.content{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.img1{
+    width: 800px;
+}
+
+.mcalgo{
+    width: 300px;
+    height: 150px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 30px;    
+}
+
+.noc{
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    font-size: 30px;    
+}
+
+.uabcs{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 50px;
+    width: 100px;
+    opacity: 0.7;
+}
+
+.menu{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 5px solid orange;
+    background-image: linear-gradient(#20E051, #D2E020);
+}
+
+.titulo{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-image: linear-gradient(#208DE0, #20E051);
+}
+
+.tlo{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+/*Footer*/
+
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-image: linear-gradient(#36D82D, #EA5F51);
+}
+
+.contact-us{
+    float: right;
+    width:85%;
+    display: flex;
+    margin-top: 35px;
+}
+
+.fa-envelope{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.fa-facebook-f{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.fa-twitter{
+   font-size: 20px;
+    margin-left: 25px; 
+}
+
+.fa-phone{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.fa-map-marker-alt{
+  font-size: 25px;  
+}
+
+.menu-1{
+    display: flex;
+}
+
+.menu-item{
+    display: table-row;
+}
+
+.burrito{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.torta{
+    width: 250px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.sand{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.empanada{
+    width: 250px;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+
+.parrafo{
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 250px;
+    font-size: 40px;
+    padding: 0;
+}
+
+@media screen and (max-width:930px){
+    .a-menu{
+        font-size: 20px;
+    }
+    
+    .Mclogo{
+        width: 250px;
+    }
+    
+    li{
+        padding-top: 30px;
+    }
+    
+    .li-uno:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    background-color: aqua;
+}
+
+.li-dos{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    background-color: brown;
+}
+
+.li-tres:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    background-color: cornflowerblue;
+}
+    
+    .fas, .fab{
+        font-size: 15px;
+    }
+    
+    .parrafo{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1250px){
+    .burrito{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.torta{
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.sand{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.empanada{
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+    .contact-us{
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .burrito{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.torta{
+    width: 150px;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.sand{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.empanada{
+    width: 150px;
+    margin-left: 230px;
+    margin-top: 0px;
+}
+}
+
